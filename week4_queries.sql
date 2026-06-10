@@ -54,7 +54,7 @@ ORDER BY DAYOFWEEK(OpenHouseDate); -- Sunday is the start
 
 -- Debug exercise
 SELECT p.L_City,
-COUNT(*) AS listing_count,
+COUNT(*) AS listing_count, -- Should count the distinct to avoid duplicate
 ROUND(AVG(p.L_SystemPrice), 0) AS avg_price
 FROM rets_property p
 INNER JOIN rets_openhouse o ON p.L_DisplayId = o.L_DisplayId
