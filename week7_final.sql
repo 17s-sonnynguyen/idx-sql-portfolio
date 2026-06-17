@@ -1,0 +1,6 @@
+-- ============================================================
+-- IDX Exchange — Data Analyst Internship
+-- Week 7: Portfolio Completion & GitHub Presentation
+-- Tables: All three tables
+-- Author: Sonny Nguyen
+-- ============================================================
